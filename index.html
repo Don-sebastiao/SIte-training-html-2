@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="styles.css">
+
+<body>
+<h1 id="title">site survey form</h1>
+
+<p id="description">please help us, make this site better!<p/>
+<p> give us your tips and wishes on what you want to see it being improved:</p>
+
+<form id="survey-form">
+
+ <label for="name" id="name-label">name<input placeholder="insert name here" id="name" type="text" required/></label>
+
+ <label for="email" id="email-label">email<input placeholder="insert email here" id="email" type="email" required/></label>
+
+ <label for="number" id="number-label">age<input placeholder="age" id="number" type="number" min="14" max="95"/></label>
+
+ <label for="dropdown"> how can you help us, helping you?
+  <select id="dropdown">
+  <option value="">select options</option>
+  <option value="1">tutorial videos</option>
+  <option value="2">guide forums</option>
+  <option value="3">wiki form</option>
+
+   </select>
+ </label>
+
+ <label for="personal-account"><input  class= "inline" value="radio" type="radio" name="type-of-account" id="personal-account" />personal account</label>
+
+ <label for="public-account"><input  class= "inline" value="radio" id="public-account" type="radio" name="type-of-account" />public account</label>
+
+ <h3>has the site on it's correct form been?:</h3>
+
+ <label for="helpful"><input class= "inline" id="helpful" type="checkbox" value="checkbox" />helpful</label>
+ <label for="useless"><input class= "inline" id="useless" type="checkbox" value="checkbox" />useless</label>
+ <label for="okay"><input class= "inline" id="okay" type="checkbox" value="checkbox" />okay?</label>
+ <label for="C.B"><input class= "inline"  id="C.B" type="checkbox" value="checkbox" />could be better</label>
+ <label for="mediocre"><input  class= "inline" id="mediocre" type="checkbox" value="checkbox" />mediocre</label>
+
+
+    <textarea rows="7" cols="30" placeholder="insert more on what would you like to see the site improve upon here:" ></textarea>
+
+ <input id="submit" type="submit" /> 
+
+
+
+</form>
+
+</body>
